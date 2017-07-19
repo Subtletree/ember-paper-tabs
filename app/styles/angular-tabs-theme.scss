@@ -7,11 +7,11 @@
           color: color($primary, '100');
           &.md-active, &.md-focused {
             &, md-icon {
-              color: color($primary, 'contrast');
+              color: color($primary, 'contrastDefaultColor');
             }
           }
           &.md-focused {
-            background: rgba(color($primary, 'contrast'), 0.1);
+            background: rgba(color($primary, 'contrastDefaultColor'), 0.1);
           }
         }
       }
@@ -27,11 +27,11 @@
           color: color($warn, '100');
           &.md-active, &.md-focused {
             &, md-icon {
-              color: color($warn, 'contrast');
+              color: color($warn, 'contrastDefaultColor');
             }
           }
           &.md-focused {
-            background: rgba(color($warn, 'contrast'), 0.1);
+            background: rgba(color($warn, 'contrastDefaultColor'), 0.1);
           }
         }
       }
@@ -47,11 +47,11 @@
           color: color($accent, '100');
           &.md-active, &.md-focused {
             &, md-icon {
-              color: color($accent, 'contrast');
+              color: color($accent, 'contrastDefaultColor');
             }
           }
           &.md-focused {
-            background: rgba(color($accent, 'contrast'), 0.1);
+            background: rgba(color($accent, 'contrastDefaultColor'), 0.1);
           }
         }
         > md-ink-bar {
